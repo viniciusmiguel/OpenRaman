@@ -1,0 +1,7 @@
+C:\Users\vmiguel\Dropbox\OpenRaman\OpenRaman\Software\OpenRaman.WindowsIoT\OpenRaman.Controls\obj\Debug\OpenRaman.Controls.csprojResolveAssemblyReference.cache
+C:\Users\vmiguel\Dropbox\OpenRaman\OpenRaman\Software\OpenRaman.WindowsIoT\OpenRaman.Controls\obj\Debug\SpectroViewer.g.i.cs
+C:\Users\vmiguel\Dropbox\OpenRaman\OpenRaman\Software\OpenRaman.WindowsIoT\OpenRaman.Controls\obj\Debug\SpectroViewer.g.cs
+C:\Users\vmiguel\Dropbox\OpenRaman\OpenRaman\Software\OpenRaman.WindowsIoT\OpenRaman.Controls\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\vmiguel\Dropbox\OpenRaman\OpenRaman\Software\OpenRaman.WindowsIoT\OpenRaman.Controls\obj\Debug\SpectroViewer.xaml
+C:\Users\vmiguel\Dropbox\OpenRaman\OpenRaman\Software\OpenRaman.WindowsIoT\OpenRaman.Controls\obj\Debug\SpectroViewer.xbf
+C:\Users\vmiguel\Dropbox\OpenRaman\OpenRaman\Software\OpenRaman.WindowsIoT\OpenRaman.Controls\obj\Debug\XamlSaveStateFile.xml

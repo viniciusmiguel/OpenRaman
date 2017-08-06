@@ -1,0 +1,35 @@
+﻿<UserControl
+    x:Class="OpenRaman.Controls.SpectroViewer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OpenRaman.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="200"
+    d:DesignWidth="400" SizeChanged="OnResize">
+
+    <Grid Background="Gray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="8*"/>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="CropArea" Grid.Column="1" Grid.Row="1">
+            <Rectangle Fill="#ff000000"/>
+            <Polyline x:Name="SpectroLine">
+                <Polyline.Stroke>
+                    <SolidColorBrush Color="Red"/>
+                </Polyline.Stroke>
+            </Polyline>
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="2">
+            <TextBlock x:Name="MinWave" Text="200"  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBlock x:Name="MaxWave" Text="1000" Margin="0,0,5,0" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        </Grid>
+    </Grid>
+</UserControl>
